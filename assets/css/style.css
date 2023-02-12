@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+header {
+    background-image: url("../img/titel-bild.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'OpenSans-Regular';
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    font-family: 'Roboto-Bold';
+}
+
+article .scroll_arrow {
+    position: absolute;
+    padding-top: 18%;
+
+}
+
+main {
+    background-color: #f7f7f7;
+}
+
+main section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    margin: 0 auto;
+    /* margin-bottom: 20%; */
+}
+
+main .great_ideas {
+    padding:20% 0;
+}
+
+main h2 {
+    font-family: 'Roboto-Bold';
+    color: #202124 ; 
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+main p {
+    font-family: 'Roboto-Regular';
+    text-align: center;
+    line-height: 25px;
+    color:#4a4a4a;
+    padding-top: 2%;
+}
+
+
+main .great_ideas_images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+main .great_ideas_images img {
+    width: 40%;
+}
+
+main .meet_artists {
+    padding-bottom: 5%;
+}
+
+main .meet_artists_images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20%;
+}
+
+main .meet_artists_images img {
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto-Regular';
+    color: #4a4a4a;
+}
+
+
+footer .footer_h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 40vw;
+    margin: 20% 0% 0% 0;
+    /* margin-top: 20%; */
+    padding-bottom: 20%;
+}
+
+footer .footer_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .footer_left {
+    width: 10%;
+}
+
+footer .footer_center {
+    width: 40%;
+    text-align: center;
+}
