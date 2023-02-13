@@ -23,6 +23,10 @@
     src: url("../fonts/OpenSans-SemiBold.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-image: url("../img/titel-bild.jpg");
     height: 100vh;
@@ -81,6 +85,11 @@ main p {
     line-height: 25px;
     color:#4a4a4a;
     padding-top: 2%;
+}
+
+main .great_ideas a {
+    text-decoration: none;
+    color: lightskyblue;
 }
 
 
@@ -145,4 +154,12 @@ footer .footer_left {
 footer .footer_center {
     width: 40%;
     text-align: center;
+}
+
+footer .fixed_bottom_bar {
+    position: fixed;
+    text-align: right;
+    width: 100vw;
+    bottom: 0; 
+    padding: 2% 5% 0 0;
 }
